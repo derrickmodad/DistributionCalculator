@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribution Calculator</title>
+    <link rel="icon" type="image/x-icon" href="statsFavIconNew.ico" />
+    <link href="styleReset.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" async></script>
+</head>
+<header>
+    <h1>Distribution Calculator</h1>
+</header>
+<body>
+    <label for="calculatorType">Choose a calculator: </label>
+    <select name="calculatorType" id="calculatorType">
+        <option disabled selected value> -- Select an option -- </option>
+        <option value="permutation">Permutation</option>
+        <option value="combination">Combination</option>
+        <option value="binomial">Binomial Distribution</option>
+        <option value="poisson">Poisson Distribution</option>
+    </select>
+    <form id="calcArea" onsubmit="return false">
+        <h1>Select a calculator from the drop down menu above</h1>
+    </form>
+</body>
+</html>
