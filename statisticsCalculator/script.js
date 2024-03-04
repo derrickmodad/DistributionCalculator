@@ -465,6 +465,9 @@ function combinations(size, selection) {
     if (size - selection === 0 || selection === 0) {
         return 1;
     }
+    if (selection === 1) {
+        return size;
+    }
     return factorial(size) / (factorial(selection) * factorial(size - selection));
 }
 
